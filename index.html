@@ -10,38 +10,45 @@
 <body >
 <div class="container">
     <div class="row">
-        <h1>Real Madrid</h1>
+        
         <div class="col">
-            <img src="./assets/realmadrid.png" alt="realmadrid" height="100px" width="100px">
+            <img class="icon" src="./assets/realmadrid.png" alt="realmadrid" height="150px" width="150px">
        
-        <span></span>
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>1</span>
-            <span>0</span>
-            <span>1</span>
+        <span class="name" id="team1-name">Real Madrid</span>
+        <div class="row goal-pnlt" id="team1-goal-pnlt">
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
         </div>
     </div>
         <div class="col">
-            <div>
-                <span>3</span>
+            <div class="row score">
+                <span id="team1-score">0</span>
                 <span>-</span>
-                <span>3</span>
+                <span id="team2-score">0</span>
             </div>
         </div>
         <div class="col">
-            <h1>Huesca</h1>
-            <img src="./assets/hueska.jpg" alt="hueska" height="100px" width="100px">
-        <div>
-            <span>1</span>
-            <span>1</span>
-            <span>1</span>
-            <span>0</span>
-            <span>0</span>
+            
+            <img class="icon" src="./assets/hueska.jpg" alt="hueska" height="150px" width="150px">
+        <span class="name" id="team2-name">Huseca</span>
+            <div class="row goal-pnlt" id="team2-goal-pnlt">
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
         </div>
         </div>
     </div>
+    <div class="row">
+        <button  id="try-again">Try again</button>
+        <button id="strike-button">Huseca Strike</button>
+    </div>
 </div>
+
+
 </body>
 </html>
